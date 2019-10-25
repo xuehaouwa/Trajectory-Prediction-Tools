@@ -1,0 +1,17 @@
+language: python
+python:
+      - "3.6"
+
+install:
+  - pip install codecov
+  - pip install coverage
+  - pip install pytest
+  - pip install -r requirements.txt
+
+script:
+  - coverage run --source gv_tools -m unittest tests/test_*.py
+
+after_success:
+  - codecov
+  - python setup.py sdist
+  - bash ./upload_to_pypi.sh
