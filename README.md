@@ -1,5 +1,6 @@
 # Trajectory-Prediction-Tools
-[![Build Status](https://travis-ci.com/xuehaouwa/Trajectory-Prediction-Tools.svg?token=aEwVHjsxxGpNpXCgchg1&branch=master)](https://travis-ci.com/xuehaouwa/Trajectory-Prediction-Tools)
+[![Build Status](https://travis-ci.com/xuehaouwa/Trajectory-Prediction-Tools.svg?token=aEwVHjsxxGpNpXCgchg1&branch=master)](https://travis-ci.com/xuehaouwa/Trajectory-Prediction-Tools) ![Version](https://img.shields.io/badge/version-0.0.1-ff69b4.svg) ![topic](https://img.shields.io/badge/topic-trajectory--prediction-brightgreen.svg?logo=github)
+
 
 
 
