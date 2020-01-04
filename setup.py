@@ -81,6 +81,4 @@ if key_repo_user in os.environ and key_repo_pass in os.environ:
         f.write('#!/usr/bin/env bash\n')
         f.write('pip install twine\n')
         f.write('twine upload -u {} -p {} dist/*\n'.format(repo_user, repo_pass))
-else:
-    print(f"OS Environ: {os.environ}")
-    raise Exception(f"Environment variables for uploading to PyPI not found: {key_repo_user} and {key_repo_pass}.")
+
