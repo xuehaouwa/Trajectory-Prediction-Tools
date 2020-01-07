@@ -3,6 +3,14 @@
 [![Build Status](https://travis-ci.com/xuehaouwa/Trajectory-Prediction-Tools.svg?token=aEwVHjsxxGpNpXCgchg1&branch=master)](https://travis-ci.com/xuehaouwa/Trajectory-Prediction-Tools) ![Version](https://img.shields.io/badge/version-0.0.3-ff69b4.svg)
 
 
+## Installation
+`pip install pytp`
+
+
+
+## Requirements
+
+- Python >= 3.6
 
 
 ## Citation
@@ -29,9 +37,7 @@ If you find this package useful, please consider citing:
 ```
 
 
-## Requirements
 
-- Python >= 3.6
 
 
 
